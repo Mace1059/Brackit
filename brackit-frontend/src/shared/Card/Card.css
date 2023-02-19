@@ -1,0 +1,13 @@
+.card {
+  width:max-content;
+  position: relative;
+  margin: 0;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.26);
+  border-radius: 12px;
+  padding: 1rem;
+  border-bottom: 10px solid;
+  border-bottom-color: lightsteelblue;
+  overflow: hidden;
+  background: white;
+  color:black;
+}

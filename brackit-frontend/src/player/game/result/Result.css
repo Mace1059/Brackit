@@ -1,0 +1,17 @@
+.result-display{
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    display: grid;
+    color:black;
+    padding: 40px;
+    font-size: 3vw;
+    margin: auto;
+}
+
+.next-question-button{
+    justify-self: center;
+}

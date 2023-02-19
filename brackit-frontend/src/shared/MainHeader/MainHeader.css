@@ -1,0 +1,24 @@
+.main-header {
+    position: sticky;
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+    justify-content: space-between;
+    height:5rem;
+    align-items: center;
+    border-bottom: 10px solid;
+    border-bottom-color: lightsteelblue;
+    background-color: white;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 5rem;
+    font-size: 20px;
+}
+
+@media (min-width: 872px) {
+    .main-header {
+        font-size: 30px;
+
+    }
+  }

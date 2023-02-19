@@ -1,0 +1,49 @@
+.answer-button {
+  width: 30vw;
+}
+
+ 
+
+.answer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-direction: row;
+  justify-content: space-between;
+
+  align-self: center;
+  justify-self: center;
+  column-gap: 10px;
+  row-gap: 15px;
+}
+
+.answer-display{
+    align-self: center;
+    justify-self: center;
+    margin: auto;
+    display: grid;
+    color:black;
+    padding: 40px;
+}
+
+.question-display{
+    align-self: center;
+    justify-self: center;
+    font-size: 30px;
+    margin-bottom: 3rem;
+
+}
+
+
+.answer-button:nth-child(1) {
+  background-color:brown;
+}
+.answer-button:nth-child(2) {
+  background-color: darkcyan;
+}
+.answer-button:nth-child(3) {
+  background-color: darkmagenta;
+}
+.answer-button:nth-child(4) {
+  background-color: darkgoldenrod;
+}
+

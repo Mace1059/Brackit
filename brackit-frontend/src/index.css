@@ -1,0 +1,46 @@
+body, input, textarea, button {  font-family: 'Rubik', sans-serif;
+}
+
+
+body {
+  background-color: midnightblue;
+  margin: 0;
+  font-size: 12px;
+  line-height: 20px;
+  color: white;
+}
+
+
+button{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 8px;
+  /* width: 17rem; */
+  max-width: 100%;
+  padding: 1rem;
+  border: none;
+  font-size: 20px;
+  background-color: dimgray;
+  color: white;
+}
+
+button:hover{
+  border-bottom-width: 3px;
+  background-image: linear-gradient(rgb(0 0 0/30%) 0 0);
+}
+
+.center {
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

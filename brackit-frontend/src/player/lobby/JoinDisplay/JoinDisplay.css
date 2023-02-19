@@ -1,0 +1,15 @@
+.join-display{
+    align-self: center;
+    justify-self: center;
+    top: 30vh;
+    margin: auto;
+    display: flex;
+    color:black;
+    padding: 40px;   
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+

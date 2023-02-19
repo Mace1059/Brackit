@@ -1,0 +1,20 @@
+.game-footer {
+  /*
+  display: grid;
+  grid-template-columns: 0.2fr 1.6fr 0.2fr;
+  justify-content: space-between; */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  /* padding-left: 30px;
+  padding-right: 30px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 5px solid;
+  border-top-color: lightsteelblue;
+  background-color: #eeeeee;
+  color: black;
+  font-size: 20px;
+}

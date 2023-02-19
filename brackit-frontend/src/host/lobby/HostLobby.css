@@ -1,0 +1,45 @@
+.bracket-join-display{
+    font-size: 3vw;
+
+    display: inline-block;
+    list-style: none;
+    justify-self: center;    
+    align-content:center;
+}
+
+li {
+    /* height: 1rem; */
+    background-color: lightsteelblue;
+    border-radius: 12px;
+    margin: 1em;
+    padding: 1.1em;
+    float:left;
+}
+
+
+
+
+
+
+
+
+.loading:after {
+  content: ".";
+  animation: dots 3s steps(4, end) infinite;
+}
+
+@keyframes dots {
+  0% {
+    content: ".";
+  }
+  40% {
+    content: "..";
+  }
+  60% {
+    content: "...";
+  }
+  90%,
+  100% {
+    content: "";
+  }
+}
